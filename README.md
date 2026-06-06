@@ -93,7 +93,9 @@ This project helped me improve my understanding of Java Swing, object-oriented p
 
 ## Reference
 
-* YouTube Tutorial: https://youtu.be/lB_J-VNMVpE
+* YouTube Tutorials: 
+  1. Java Swing: https://youtu.be/Kmgo00avvEw?si=icQ5j12M4ydW2URI
+  2. Game Project: https://youtu.be/lB_J-VNMVpE
 * GitHub Repository: https://github.com/ImKennyYip/pacman-java.git
 
 
