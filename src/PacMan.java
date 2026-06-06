@@ -171,10 +171,7 @@ public class PacMan extends JPanel implements ActionListener, KeyListener{
                 }
                 resetPositions();
             }
-//
-//            if (ghost.y == tileSize*9 && ghost.direction != 'U' && ghost.direction != 'D') {
-//                ghost.updateDirection('U');
-//            }
+
             ghost.x += ghost.velocityX;
             ghost.y += ghost.velocityY;
             for (GameBlock wall : walls) {
@@ -201,13 +198,6 @@ public class PacMan extends JPanel implements ActionListener, KeyListener{
             resetPositions();
         }
     }
-
-//    public boolean collision(GameBlock a, GameBlock b) {
-//        return  a.x < b.x + b.width &&
-//                a.x + a.width > b.x &&
-//                a.y < b.y + b.height &&
-//                a.y + a.height > b.y;
-//    }
 
 
     public void resetPositions() {

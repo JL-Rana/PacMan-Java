@@ -27,16 +27,7 @@ public class GameBlock {
         char prevDirection = this.direction;
         this.direction = direction;
         updateVelocity();
-//        this.x += this.velocityX;
-//        this.y += this.velocityY;
-//        for (GameBlock wall : walls) {
-//            if (collision(this, wall)) {
-//                this.x -= this.velocityX;
-//                this.y -= this.velocityY;
-//                this.direction = prevDirection;
-//                updateVelocity();
-//            }
-//            }
+
     }
 
     void updateVelocity() {
