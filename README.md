@@ -97,4 +97,3 @@ This project helped me improve my understanding of Java Swing, object-oriented p
 * GitHub Repository: https://github.com/ImKennyYip/pacman-java.git
 
 
-English translation assisted by ChatGPT.
